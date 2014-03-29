@@ -273,7 +273,7 @@ public class CSVRecord {
 			parent = "";			
 		}
 		else{
-			category = cat.substring(p);
+			category = cat.substring(p+1);
 			parent = cat.substring(0, p);			
 		}
 	}

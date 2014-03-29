@@ -38,6 +38,7 @@ public class CSVConverter {
 									.get(Configuration.FINANCISTO_ACCOUNT));
 							original.setProject(config
 									.get(Configuration.FINANCISTO_PROJECT));
+							original.setLocation("");
 						}
 					});
 
